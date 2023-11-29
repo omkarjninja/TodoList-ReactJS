@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: white;
+}
+.hey{
+  display: flex;
+}
+input:checked+h1 {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.cbox{
+  width: 50px;
+  height: 50px;
+}
+html{
+  scroll-behavior: smooth;
+}
